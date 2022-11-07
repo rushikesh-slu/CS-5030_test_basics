@@ -13,9 +13,8 @@ class todoservice {
     }
 
     add_todo(todo) {
-        console.log("in add todo")
+        
         this.todo_data["todo"].push(todo)
-        console.log(this.todo_data)
         this.todos = this.todo_data;
 
         return "item added"
